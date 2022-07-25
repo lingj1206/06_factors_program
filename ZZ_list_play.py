@@ -10,3 +10,9 @@ for item in range (0, 4):
 print(my_list)
 
 my_list.sort
+my_list_len = len(my_list)
+
+print()
+print(my_list)
+print("The list has {} items".format(my_list_len))
+print()
